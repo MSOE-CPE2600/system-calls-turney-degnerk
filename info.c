@@ -1,11 +1,11 @@
 /***************************************************************************
- * Filename: info.c
- * Name: Kadie Degner
- * Date: 10/29/2025
- * Description: Program to use various information maintenance system calls.
- * Note: Compile with gcc -o info info.c
- *       Run with ./info
- ***************************************************************************/
+* Filename: info.c
+* Name: Kadie Degner
+* Date: 10/29/2025
+* Description: Program to use various information maintenance system calls.
+* Note: Compile with gcc -o info info.c
+*       Run with ./info
+***************************************************************************/
 
 #include <stdio.h>
 #include <time.h>
