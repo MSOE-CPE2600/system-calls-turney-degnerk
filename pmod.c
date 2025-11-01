@@ -1,5 +1,7 @@
 /************************************************
 * Filename: pmod.c
+* Assignment: Lab 9- System Calls
+* Section: 121
 * Name: Kadie Degner
 * Date: 11/01/2025
 * Description: Program to use nice and nanosleep.
@@ -19,7 +21,8 @@ int main(int argc, char* argv[])
     errno = 0;
     // Reduce priority
     nice(10);
-    if (errno != 0) {
+    if (errno != 0)
+    {
         perror("Error: nice() failed.\n");
         exit(1);
     }
